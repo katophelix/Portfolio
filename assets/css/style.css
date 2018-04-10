@@ -1,0 +1,128 @@
+* { box-sizing: border-box; } 
+body{
+  background-color: rgb(192, 202, 247);
+}
+.container { 
+  font-family: "Montserrat", sans-serif; 
+/* background:rgb(247, 247, 252); */
+}
+h1{
+color: white;
+  font-size: 45px;
+  font-weight: bolder;
+}
+h2{
+  color: white;
+  font-size: 30px;
+}
+
+h3{
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+h5{
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+.page-header{
+  /* background: rgb(241, 245, 245); */
+}
+.log-container{
+ margin-left: 150px;
+}
+
+.auth-image img{
+  width: 50%;
+  height: auto;
+}
+/* ---- grid ---- */
+
+.grid {
+  background-color: rgb(165, 178, 235);
+   max-width: 1200px; 
+   margin-bottom: 20px;
+   /* border: 5px solid black; */
+  padding-left: 20px;
+  padding-top: 10px;
+  /* padding-right: 20px; */ 
+  /* height: 5200px; */
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ----
+/* .grid-item.medium{
+  float: left;
+  /* width: 100px;
+  /* height: 100px; */
+  /* background: rgb(81, 201, 238) !important;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  text-align:center;
+  font-size: 25px;
+  text-orientation: sideways; */ 
+
+/* }
+.grid-item.small{
+  float: left;
+  /* width: 100px;
+  height: 100px; */
+  /* background: rgb(24, 164, 245) !important;
+  border: 2px solid hsla(0, 0%, 0%, 0.5); */
+
+/* } */
+/* .grid-item.large{
+  float: left; */ 
+  /* width: 100px;
+  height: 100px; */
+  /* background: rgb(22, 228, 235) !important;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+
+} */
+.grid-item {
+  /* float: left; */
+  /* width: 100px;
+  height: 100px; */
+  background: rgb(248, 204, 237);
+  border: 7px solid white;
+  text-align: center;
+  /* margin-left: 1px;
+  margin-top: 1px; */
+}
+
+.grid-item--width1 { width: 100px; }
+.grid-item--height1 { height: 100px; }
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+.grid-item--width3 { width: 300px; }
+.grid-item--height3 { height: 300px; }
+
+.grid-item:hover {
+  border-color: hsla(0, 0%, 100%, 0.5);
+  cursor: move;
+}
+
+.grid-item.ui-draggable-dragging,
+.grid-item.is-positioning-post-drag {
+  background: rgb(236, 91, 146);
+  z-index: 2;
+}
+
+.packery-drop-placeholder {
+  outline: 3px dashed hsla(0, 0%, 0%, 0.5);
+  outline-offset: -6px;
+  -webkit-transition: -webkit-transform 0.2s;
+          transition: transform 0.2s;
+}
+
+/* resize images */
+.grid-item img {
+  width: 100%;
+  height: auto;
+}

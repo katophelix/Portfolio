@@ -16,6 +16,6 @@ The boxes are draggable - be careful it is rather addicting - as well as clickab
 
 
 
-![Kat Harris Portfolio](Screen-shots/search.gif)
+![Kat Harris Portfolio](index.gif)
 
 ### Please check in periodically since I am constantly adding new projects.

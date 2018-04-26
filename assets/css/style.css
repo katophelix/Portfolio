@@ -12,10 +12,13 @@ body{
   text-align: center;
   height: 700px;
 }
+ul{
+  color: blue;
+}
 
 .directory{
 
-  color: rgb(197, 200, 204);
+  color: rgb(54, 99, 158);
   font-size: 18px;
   font-weight: bolder;
 }
@@ -33,6 +36,12 @@ h3{
   color: rgb(46, 47, 49);
   font-size: 25px;
   font-style: italic;
+}
+h4{
+  color: rgb(46, 47, 49);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
 }
 h5{
   color: rgb(46, 47, 49);

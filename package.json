@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Please checkout my wepbage at [katharrisiwritecode.com](https://katharrisiwritecode.com/) !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katophelix/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katophelix/Portfolio/issues"
+  },
+  "homepage": "https://github.com/katophelix/Portfolio#readme",
+  "dependencies": {
+    "draggabilly": "^2.2.0"
+  }
+}

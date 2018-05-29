@@ -25,6 +25,10 @@ $grid.packery({
 // bind draggabilly events to item elements
 $container.find('.item').each( makeEachDraggable );
 
+var $draggable = $('.draggable').draggabilly({
+  // options...
+})
+
 function makeEachDraggable( i, itemElem ) {
   // make element draggable with Draggabilly
   var draggie = new Draggabilly( itemElem );
@@ -32,3 +36,17 @@ function makeEachDraggable( i, itemElem ) {
   $container.packery( 'bindDraggabillyEvents', draggie );
 }
 
+// jQuery
+function listener(/* parameters */) {
+  // get Draggabilly instance
+  var draggie = $(this).data('draggabilly');
+  console.log( 'eventName happened', draggie.position.x, draggie.position.y );
+}
+// bind event listener
+$draggable.on( 'eventName', listener );
+// unbind event listener
+$draggable.off( 'eventName', listener );
+// bind event listener to trigger once. note ONE not ON
+$draggable.one( 'eventName', function() {
+  console.log('eventName happened just once');
+});

@@ -8,6 +8,10 @@ body{
 
 /* background:rgb(247, 247, 252); */
 }
+.navbar{
+padding-left: 30px;
+
+}
 .container-resume{
   text-align: center;
   height: 700px;
